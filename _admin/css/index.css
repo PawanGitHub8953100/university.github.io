@@ -1,0 +1,131 @@
+    body {
+        background-color:rgba(0,0,0,0.2);
+    }
+    
+    #user {
+        width: 6em;
+        height: 6em;
+        /* border-radius: 50%; */
+        margin-top: -50px;
+    }
+    
+    .login-form {
+        background-color:teal;
+        margin: auto;
+        margin-top: 100px;
+        text-align: center;
+        width: 400px;
+        height: 400px;
+        box-shadow:0px -100px 100px -100px green inset ,0px 100px 100px -100px red inset,0px 0px 10px 0px aqua inset ,5px 5px 10px black;
+        border-radius: 07px;
+		opacity:0.9;
+    }
+    
+    #msg {
+		width:350px;
+		height:20px;
+		background:none;
+        position:absolute;
+		top:392px;
+        left: 582px;
+        color: brown;
+        font-size: 1.2em;
+    }
+    
+    input[type="text"],
+    [type="password"] ,select{
+        border: none;
+        outline: none;
+        background:none;
+        text-align: center;
+        color:white;
+        font-size: large;
+        /*border-bottom:3.5px solid #137447;*/
+        border-bottom: 3.5px solid rgba(0,0,0,0.5);
+       
+        padding: 8.5px;
+    }
+    
+    ::placeholder {
+        text-align: center;
+        /*color:#137447;*/
+        color: white;
+        font-size: larger;
+    }
+    
+    .login-form,
+    div {
+        position: relative;
+        top: 60px;
+        left: 0px;
+        display: block;
+        padding: 10px;
+    }
+    
+    #button{
+        background-color: #137447;
+        color:white;
+        border:none;
+        font-size 1em;
+        width:90px;
+        height:40px;
+		cursor:pointer;
+	    outline:none;
+      
+    }
+ 
+    
+		#forget{	
+		text-decoration:none;
+		color:white;
+		font-size:20px;
+		padding-left:10px;
+	}
+	#forget-div{
+	position:absolute;
+	top:522px;
+	left:686px;
+	width:100px;
+	height:20px;
+	text-align:center;
+	background:rgba(0,0,0,0.3);
+	}
+
+   
+		#sign{	
+		text-decoration:none;
+		color:white;
+		font-size:20px;
+		padding-left:10px;
+	}
+	#sign-div{
+	position:absolute;
+	top:522px;
+	left:810px;
+	width:100px;
+	height:20px;
+	text-align:center;
+	background:rgba(0,0,0,0.3);
+	}
+
+
+
+	#Admin-div{
+	position:absolute;
+	top:470px;
+	left:600px;
+	width:120px;
+	height:20px;
+	text-align:center;
+	background:rgba(0,0,0,0.3);
+	}
+	
+	.login-type{
+	background:teal;
+	color:white;
+	font-size:1.5em;
+			}
+	.login-type option{
+	background:teal;
+	color:white;
+			}

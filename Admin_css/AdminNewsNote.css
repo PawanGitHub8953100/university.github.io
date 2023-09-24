@@ -1,0 +1,16 @@
+.news-container{
+background-color:white;
+border-radius:10px;
+width:60em;
+height:850px;
+margin:auto;
+position:relative;
+top:220px;
+overflow:hidden;
+}
+.paragraph-news-div{
+ padding:30px;
+ text-align:center;
+ color:#770000;
+ box-shadow:0px 0px 0px 1px brown ;
+}

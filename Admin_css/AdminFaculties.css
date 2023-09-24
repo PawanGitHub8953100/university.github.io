@@ -1,0 +1,51 @@
+.faculties-midel-div{
+width:94.91em;
+height:330px;
+background:none;
+}
+.faculties-box{
+	width:300px;
+	height:480px;
+	background:none;
+	position:absolute;
+	top:330px;
+	z-index:100;
+}
+.faculties-elem{
+	width:290px;
+	height:50px;
+	background-color:#FFFFFF;
+	position:relative;
+	top:50px;
+	left:10px;
+	box-shadow:0px 0px 2px 0px brown;
+	border-radius:0px;
+	border-left:05px solid brown;
+		
+}
+.faculties-elem:hover{
+	background-color:rgba(0,0,0,0.5);
+	color:#EEEEEE;
+}
+.faculties-elem a:hover{
+color:#EEEEEE;
+}
+.faculties-elem a{
+	padding:10px;
+	text-shadow:2px 2px 10px black;
+	font-size:20px;
+	color:brown;
+	}
+#anker{
+position:relative;
+top:03px;
+}
+.faculties-bottom-div{
+width:94.91em;
+background-color:white;
+border-bottom:2px solid #660000;
+height:350px;
+position:absolute;
+top:410px;
+z-index:1;
+}

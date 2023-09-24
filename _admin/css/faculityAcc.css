@@ -1,0 +1,80 @@
+body{
+background:rgba(0,0,0,0.2);
+}
+
+.faculityAcc-main-div{
+width:93em;
+height:auto;
+background:#EEEEEE;
+}
+.faculityAcc-table{
+border-collapse:collapse;
+border:1px solid brown;
+color:#550000;
+position:relative;
+top:61px;
+width:93em;
+color:#550000;
+}
+#anker{
+text-decoration:none;
+color:#AA0000;
+}
+
+.fac-req-tr:nth-child(even){
+background:rgba(0,0,0,0.1);
+}
+.fac-req-tr:nth-child(odd){
+background:white;
+}
+/*---------Header--Data-------(No Interfere)--------*/
+.fac-header-img{
+	width:94em;
+	height:250px;
+	overflow:hidden;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	overflow:hidden;
+	position:absolute;
+	top:150px;
+	z-index:10;
+}
+
+.fac-img{
+	width:94em;
+	height:400px;
+}
+
+.fac-div-heading{
+background:none;
+width:71em;
+height:200px;
+position:relative;
+top:0px;
+left:370px;
+color:white;
+border-bottom:2px dashed white;
+z-index:100;
+}
+
+
+.fac-header-div{
+	width:94em;
+	height:250px;
+	background-color:rgba(170, 8, 8, 0.708);
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:10;
+}
+#fac-text-heading{
+position:absolute;
+top:130px;
+font-size:2em;
+font-family:Arial, Helvetica, sans-serif;
+z-index:100;
+}
+
+.faculityAcc-table{
+width:94em;
+}

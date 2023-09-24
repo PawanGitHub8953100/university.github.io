@@ -1,0 +1,808 @@
+body {
+    background-color:rgba(0,0,0,0.1);
+}
+
+
+/*--------------Table---header---navigation------------*/
+	.student_table{
+	width:47em;
+	border-collapse:collapse;
+	font-size:xx-large;
+	border-bottom:1px solid #0787b1;
+	margin-left:0px;
+	background-color:#660000;
+	position:relative;
+	top:60px;
+	}
+	a{
+		text-decoration:none;
+		color:white;
+	}
+.student_table a:hover{
+/*background-color:#BB0000;*/
+color:white;
+transition:1.5s;
+}
+	.student_table tr th:hover{
+	background-color:#BB0000;
+	transition:1.5s;
+	}
+
+/*---------Course DropDown--------------*/
+.drop-div{
+ color:white;
+}
+.course-dropdown{
+background:#660000;
+width:185px;
+height:80px;
+position:absolute;
+top:41px;
+left:750px;
+text-align:left;
+z-index:100;
+border-radius:02%;
+padding-left:10px;
+display:none;
+}
+
+.drop-div:hover .course-dropdown{
+display:block;
+}
+.course-dropdown:hover {
+	background-color:#BB0000;
+	transition:1.5s;
+}
+
+/* header.php-------table------ */
+
+#table-middel {
+    border: none;
+}
+
+
+/* STUDENT HEADING COLOR */
+
+#stu-heading {
+    background-color:none;
+    color:#550000;
+    font-size: 3em;
+}
+
+#stu-h {
+    border: none;
+}
+
+
+/* header.php-------img------ */
+
+#<div class="faculties-elem"><a href="#"></a></div> {
+    border: none;
+    font-size: 1.8em;
+    padding: none;
+    margin: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/* header.php-------img------ */
+
+#h1-assoc {
+    color:#DDDDDD;
+    text-shadow: 2.2px 2.2px #e97373;
+}
+
+
+/* middel table */
+
+/*input[type="text"] {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid brown;
+    background-color:rgba(1,1,1,0.1);
+    font-size: bolder;
+
+}
+
+textarea {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid brown;
+    background-color:rgba(1,1,1,0.1);
+    font-size: bolder;
+ }
+
+input[type="radio"] {
+    border: none;
+    outline: none;
+    /* border-bottom: 2px solid #74cb87; */
+/*    background-color:rgba(1,1,1,0.1);
+    font-size: bolder;
+}*/
+/*
+input[type="file"] {
+   /* border: none;
+    outline: none;
+     border-bottom: 2px solid #74cb87; 
+    background-color: #e2f7e7;
+    font-size: bolder;
+}
+*/
+/*select {*/
+/*    border: none;*/
+  /*  outline: none;*/
+    /*border-bottom: 2px solid brown;
+    background-color:rgba(1,1,1,0.1);*/
+    /*font-size: bolder;*/
+    /*border-radius: 10%;*/
+/*}*/
+
+
+
+/* student_add.php----Form---Submit-----Color---Button Code----- */
+
+#stu-btn-td {
+    border: none;
+}
+
+#act{
+    border: none;
+	border-radius:0px;
+    width:150px;
+	height:40px;
+    background-color: rgb(0,0,0,0.4);
+    color:white;
+    font-size: 1em;
+	cursor:pointer;
+}
+
+#act:hover {
+    border: none;
+    font-size: 0.9em;
+    background-color: rgb(3, 79, 3);
+    color: #f8f4a0;
+}
+
+#reset {
+	width:100px;
+	height:40px;
+	border: none;
+    color: white;
+    background-color: rgb(0,0,0,0.4);
+    font-size: 1em;
+	cursor:pointer;
+}
+
+#reset:hover {
+	background-color:#DD0000;
+    color: white;
+}
+
+
+/* Student_view.php----TABLE----Border----code*/
+
+#stu-view-table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.stu-view-table-tr {
+    border: 1px solid black;
+}
+
+.stu-view-table-tr td {
+    border: 1px solid black;
+}
+
+
+/* DATA BASE Color Code--------------  */
+
+.stu-view-table-tr:nth-child(even) {
+    background-color:#EEEEEE;
+	border:2px solid brown;
+}
+
+.stu-view-table-tr:nth-child(odd) {
+    background-color:white;
+}
+
+.stu-view-table-tr:hover {
+    background-color: #f9f9d7;
+}
+
+
+/* Student_view.php----LOGO  ---studentADD----AllDelete----Print*/
+
+#logo-tr {
+    background-color: #c0c0c0;
+}
+
+.stu-div-logo {
+    background: none;
+    overflow: hidden;
+    position: relative;
+    left: 42%;
+    width: 80px;
+	display:inline;
+}
+.stu-div-logo a {
+    background: none;
+}
+
+#print-logo {
+    top: 1px;
+    width: 45;
+    height: 35px;
+    
+}
+
+#alldelete-logo {
+    width: 100px;
+    height: 34.5px;
+    top: 5px;
+    
+}
+
+
+/* Student_view.php----LOGO Div */
+
+#st-add-form-logo {
+    width: 60;
+    height: 34px;
+    top: 1px;
+    
+}
+
+
+/* Cursur Multiple Check-box */
+
+.multi-select {
+    cursor: pointer;
+}
+
+
+/*student_view.php----- DB show  Image Code */
+
+#data-image {
+    width: 75px;
+    height: 60px;
+}
+
+.data-div-image {
+    overflow: hidden;
+    background: none;
+}
+
+.detail-btn:hover {
+    cursor: pointer;
+}
+
+
+/* After print data -------Remove header File */
+
+@media print {
+    #div-header {
+        display: none;
+    }
+    .footer {
+        display: none;
+    }
+    .watermark {
+        display: block;
+    }
+}
+
+@media print {
+    * {
+        padding: 10px;
+    }
+    #table-middel {
+        border: 2ps solid black;
+        width: 700;
+        height: auto;
+    }
+    #table-middel td {
+        width: 100;
+    }
+    input[type="button"] {
+        display: none;
+    }
+}
+
+/* watermark during print data */
+
+
+/*.watermark {
+        text-align: center;
+        position: absolute;
+        top: 20px;
+        left: 400;
+        margin: auto;
+        color: red;
+        opacity: 1;
+        font-size: 0.5em;
+        display: none;
+    }
+    
+    */
+	
+	/*FEES_ADD.PHP   ------- */
+	.fees-add-div{
+	margin-left:500px;
+	}
+	#fees_add_table{
+	
+	border-collapse:collapse;
+	}
+	#fees_add_table tr td{
+		font-size:1.5em;
+		color:#550000;
+	}
+	#fees_add_table tr td input[type="text"]{
+		font-size:1em;
+		color:#550000;
+		width:100%;
+	}
+	#fees_add_table tr td  textarea{
+	font-size:1em;
+	color:#550000;
+	width:100%;
+	}
+	#fees_add_table tr th h2{
+		font-size:3em;
+		margin:0px;
+		background-color:#770000;
+		color:white;
+		text-shadow: 1.5px 1.5px rgba(0,0,0,0.5);
+	}
+	#fees_add_table tr td input[type="button"], #searchbtn{
+		font-size:1.4em;
+		border:none;
+		margin:1px;
+		background-color:#550000;
+		color:white;
+		
+	}
+	#fees_add_table tr td input[type="submit"]:hover{
+		
+		background-color:rgba(0,0,0,0.2);
+		color:#550000;
+		cursor:pointer;
+	}
+	
+	#fees_add_table tr td input[type="button"]:hover{
+		background-color:rgba(0,0,0,0.2);
+		cursor:brown;
+		color:#550000;
+	}
+	
+	#fees_add_table tr:hover{
+		background-color:white;
+		transition:1s;
+	}
+	.stu-view-table-tr td a{
+	text-decoration:none;
+	}
+	
+	/*------fees_print_form-------*/
+/*----------Print header None------------------*/	
+
+	@media print{
+		.fees_print{
+			display:none;
+		}
+		.stu_container{
+		display:none;
+		}
+		.student_table{
+		display:none;
+		}
+		.student-header-img{
+		display:none;
+		}
+		#stu-view-div{
+		display:none;
+		}
+		.search{
+		display:none;
+		}
+	}
+	
+
+
+/*Animation*/
+
+#stu-img-logo{
+		 width:70px;
+		 height:auto;
+		 animation-name: animateimg;
+         animation-duration: 3s;
+         animation-direction: alternate;
+         animation-iteration-count: infinite;
+}
+@keyframes animateimg {
+            0% {
+                border-radius: 0%;
+				border:none;
+            }
+            100% {
+                border-radius: 20%;
+				background-color:#CCFF00;
+				border:none;
+            }
+        }
+
+
+
+#stu-div-logo{
+		 width:41px;
+		 height:auto;
+		 animation-name: animate;
+         animation-duration: 3s;
+         animation-direction: alternate;
+         animation-iteration-count: infinite;
+}
+@keyframes animate {
+            0% {
+                border-radius: 0%;
+				border:none;
+            }
+            100% {
+                border-radius: 50%;
+				border:none;
+            }
+        }
+
+
+#stu-div-logo-border{
+		 width:41px;
+		 height:auto;
+		 animation-name: animateBorder;
+         animation-duration: 3s;
+         animation-direction: alternate;
+         animation-iteration-count: infinite;
+}
+@keyframes animateBorder {
+            0% {
+                border-radius: 0%;
+				
+            }
+            100% {
+                border-radius: 50%;
+            }
+        }
+
+
+.logo-animate{
+	 	 width:80px;
+		 height:40px;
+		 animation-name: animation;
+         animation-duration: 3s;
+         animation-direction: alternate;
+         animation-iteration-count: infinite;
+}
+@keyframes animation{
+            0% {
+                border-radius: 0%;
+            }
+            100% {
+                border-radius: 50%;
+            	background-color:#FFCC00;
+				border-bottom:2.8px solid peru;
+			}
+        }
+
+
+
+.logo-animate-fees{
+	 	 width:35px;
+		 height:35px;
+		 animation-name:fees;
+         animation-duration: 2s;
+         animation-direction: alternate;
+         animation-iteration-count: infinite;
+}
+@keyframes fees{
+            0% {
+                border-radius: 0%;
+            }
+            100% {
+                border-radius: 50%;
+            	background-color:#FFCC00;
+				/*border-bottom:2.8px solid peru;
+			*/}
+        }
+
+
+
+/*@media {
+	 #div-header{
+	 display:none;
+	 }
+	}
+*/
+.fees-view{
+
+border-collapse:collapse;
+}
+
+/*  Exam - view*/
+#exam a{
+	text-decoration:none;
+}
+#exam table{
+border-collapse:collapse;
+}
+
+/* Exam Dropdown */
+#exam-container-div{
+font-size:1.5em;
+}
+
+#exam-container-div:hover{
+ /* background-color: #f3e09f; */
+    background-color: none;
+    color: #ffb700;
+    font-size: 1.5em;
+    text-shadow: 1.5px 1px rgb(255, 3, 213);
+}
+
+#exam-container-div{
+	position:relative;
+	display:block;
+	top:0px;
+}
+.container p{
+padding:0px;
+margin:0px;
+box-shadow:0px 0px 5px tomato inset;
+
+}
+
+.container{
+border-bottom:4px groove brown;
+border-left:4px groove brown;
+border-radius:5%;
+padding:0px;
+margin:0px;
+width:100px;
+display:none;
+position:absolute;
+left:80px;
+}
+#exam-container-div:hover .container{
+display:block;
+}
+.container .t-h a{
+text-decoration:none;
+}
+/* admit image set div*/
+ #img{
+ position:relative;
+	top:150;
+	right:-560px;
+	
+ }
+ 
+ 
+
+/*Admit Button Blinker */
+ 
+ 
+ .admit_blink{
+ 	animation: blinker 2s infinite;
+	background-color:silver;
+	color:#AA0000;
+	width:90px;
+	border:none;
+	outline:none;
+ }
+ @keyframes blinker{
+ 0%{
+ 	transform:scale(0);
+ }
+  50%{
+ 	transform:scale(1);
+	} 
+	100%{
+ 	transform:scale(0);
+	} 
+}
+.admit_table{
+border-collapse:collapse;
+margin-top:-60px;
+ }
+.admit-data-table{
+border-collapse:collapse; 
+padding-left:40px;
+}
+.admit-data-table td{
+padding-left:10px;
+}
+ 
+ .admit_table td{
+ border:none;
+ padding-left:20px;
+}
+
+.instruction-admit{
+margin-top:1px;
+width:665px;
+height:400px;
+}
+.main-div{
+margin:auto;
+width:700px;
+height:auto;
+}
+.data-print{
+	width:400px;
+	height:0px;
+	margin:auto;
+	margin-top:10px;
+}
+@media print{
+	.admit_table{
+	margin-top:-260px;
+}
+.admit_table,.admit-data-table,.instruction-admit{
+		background:#FFFF99;
+		width:800px;
+		margin-left:-55px;
+	}
+	.instruction-admit{
+	position:absolute;
+	top:275px;
+	width:780px;
+	height:780px;
+	}
+	
+	 #img{
+ position:relative;
+	top:0;
+	right:-560px;
+	
+ }
+ 
+}
+
+/*-------------student---------heading img----------------*/
+
+.student-header-img{
+	width:94.91em;
+	height:250px;
+	overflow:hidden;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	overflow:hidden;
+	position:relative;
+	top:60px;
+}
+
+.student-img{
+	width:94em;
+	height:400px;
+}
+
+.Student-div-heading{
+background:none;
+width:70em;
+height:200px;
+position:relative;
+top:0px;
+left:370px;
+color:white;
+border-bottom:2px dashed white;
+z-index:100;
+}
+
+
+.student-header-div{
+	width:94em;
+	height:250px;
+	background-color:rgba(170, 8, 8, 0.708);
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:10;
+}
+#stu-text-heading{
+position:absolute;
+top:130px;
+font-size:2em;
+font-family:Arial, Helvetica, sans-serif;
+z-index:100;
+}
+
+/*-----------------University -------------------*/
+
+	#stu-img{
+	width:100px;
+	height:100px;
+    border-radius:50%;
+	position:absolute;
+	top:0px;
+	left:10px;
+	z-index:100;
+	
+	}
+	.stu-admin_container{
+		}
+.stu-container{
+width:500px;
+height:auto;
+text-align:center;
+font-size:2.2em;
+text-shadow:02px 01px 10px brown;
+color:#CC0033;
+position:relative;
+top:0px;
+left:450px;		
+}
+/*----------LogOut Css Design---------------------*/
+
+#frm-h{
+width:80px;
+height:5px;
+}
+.log-btn{
+width:118px;
+height:42px;
+position:relative;
+bottom:2.5px;
+right:1.5px;
+font-size:xx-large;
+font-family:"Gill Sans Ultra Bold";
+color:white;
+outline:none;
+border:none;
+background-color:#660000;
+cursor:pointer;
+}
+
+.log-btn:hover{
+background-color:#BB0000;
+transition:1.5s;
+}
+/************Drop down header dataBase insert data************************/
+.database{
+color:white;
+            cursor: pointer;
+            font-size:x-large;
+			height:25px;
+            width:104px;
+			text-align:center;
+	}
+.database:hover .data-nav{
+display:block;
+
+top:39px;
+right:120px;
+text-align:left;
+
+}
+ .data-nav{
+            height:150px;
+            width:8.9%;
+			
+background:#660000;
+position:absolute;
+top:150px;
+right:140px;
+text-align:left;
+z-index:100;
+padding-left:10px;
+display:none;    
+ }
+ .data-nav a{
+ font-size:1.3em;			
+
+ }
+ .data-nav:hover{
+ background-color:#BB0000;
+ transition:2s;
+ }
+ .data-nav a:hover{
+ color:#770000;
+ }

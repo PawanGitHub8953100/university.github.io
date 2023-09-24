@@ -1,0 +1,785 @@
+@import"AdminContact.css";
+@import"AdminCourse.css";
+@import"AdminFaculties.css";
+@import"AdminNewsNote.css";
+@import"AdminStudentData.css";
+
+body{
+	background-color:rgba(0,0,0,0.1);
+/*	background-image:url('../images/IICS.webp');*/
+	background-attachment:fixed;
+	background-size:cover;
+	margin:0px;
+	}
+	#img{
+	width:100px;
+	height:100px;
+    border-radius:50%;
+	position:absolute;
+	top:10px;
+	left:10px;
+	
+	}
+	.admin_container{
+		}
+.container{
+width:500px;
+height:auto;
+text-align:center;
+font-size:2.2em;
+text-shadow:02px 01px 10px brown;
+color:#CC0033;
+position:absolute;
+top:20px;
+left:450px;		
+z-index:100;
+}
+#container-border{
+position:adsolute;
+top:10px;
+left:450px;
+font-size:2.6em;
+color:#990000;
+}
+
+/*--------------Table---header---navigation------------*/
+	.admin_table{
+	width:47.46em;
+	border-collapse:collapse;
+	font-size:xx-large;
+	border-bottom:1px solid #0787b1;
+	margin-left:0px;
+	background-color:#660000;
+	position:relative;
+	top:120px;
+	}
+	a{
+		text-decoration:none;
+		color:#CCFFFF;
+	}
+
+.admin_table a:hover{
+/*background-color:#BB0000;*/
+color:white;
+transition:1.5s;
+}
+	.admin_table tr th:hover{
+	background-color:#BB0000;
+	transition:1.5s;
+	}
+/*
+		#container-img-logo{
+		position:relative;
+		top:25px;
+		left:04px;
+		}
+		
+			.univers-elem-p:first-letter{
+			color:#00a5dc;
+			font:icon;
+			font-size:2em;
+			border:1px groove #00a5dc;
+			
+		}
+	*/
+	/*--------------Top------Border----------------*/
+		#top-border{
+				width:94.91em;
+				height:1px;
+				border-bottom:1px solid #BB0000;
+				position:absolute;
+				top:173px;		
+			}
+
+
+	#top-border-down{
+				width:94.91em;
+				height:1px;
+				border-bottom:3px groove #BB0000;
+				position:absolute;
+				top:172px;		
+		}
+
+
+
+		.univers-elem-p{
+			color:black;
+			font:icon;
+			text-align:justify;
+			padding:25px;
+			position:relative;
+			top:100px;
+		}
+		
+		.univers-logo{
+		position:absolute;
+		top:890px;
+		left:450px;
+		}
+		.univers-logo-1{
+		position:absolute;
+		top:890px;
+		left:850px;
+		}
+		.univers-logo img{
+		width:180px;
+		border-radius:25%;
+		}
+		
+		.univers-logo-1 img{
+		width:180px;
+		border-radius:25%;
+		}
+	
+		.univers-logo-elem{
+		position:relative;
+		top:05px;
+		left:60px;
+		color:white;
+		font-weight:bolder;
+		font-size:2em;
+		}
+		
+		
+		.icon-border{
+		border-radius:25%;
+		border:3.5px dashed #0787b1;
+				}
+				
+	    .icon-border-1{
+		border-radius:25%;
+		border:3.5px dashed #0787b1;
+		}
+		
+.login-div-elem{
+background-color:#0787b1;
+width:37px;
+height:40px;
+opacity:0.8;
+border-top-left-radius:50%;
+border-top-right-radius:50%;
+border-bottom-right-radius:50%;
+position:absolute;
+left:80px;
+top:122;
+overflow:visible;
+z-index:100;
+transition:2s;
+}
+.login-div-elem:hover .login_a{
+display:none;
+}
+.login-div-elem .animate_div{
+position:absolute;
+top:39px;
+background-color:#000000;
+width:100px;
+height:55px;
+display:none;
+transition:2s;
+}
+.login-div-elem:hover .animate_div{
+display:block; 
+animation:divAnimate 1s;
+border-radius:0px 20px;
+}
+
+@keyframes divAnimate{
+	0%{
+		transform:scale(0);
+	}
+	05%{
+		transform:scale(0.7);
+	}
+	10%{
+		transform:scale(1);
+	}
+	5%{
+	left:-1px;
+	}
+
+	2%{
+	top:40px;
+	}
+	1%{
+	
+	height:10px;
+	}
+	
+	50%{
+	
+	height:20px;
+	}
+	0%{
+	width:5px;
+	}
+	10%{
+	width:5px;
+	}
+	0%{
+	border-radius:50%;
+	}
+	10%{
+	border-radius:50%;
+	}
+	05%{
+	font-size:50px;
+	}
+}
+.animate_div:hover .login_a{
+ font-size:10px;
+ position:relative;
+ left:10px;
+ top:8px;
+ display:block;
+ font-size:xx-large;
+ font-weight:bolder;
+ animation:Flaxbox 2s;
+ z-index:100;
+}
+@keyframes Flaxbox{
+	0%{
+		transform:scals(0);
+	}
+	2%{
+		transform:scals(0.5);
+	}
+	5%{
+		transform:scals(1);
+	}
+	0%{
+		left:-1px;
+	}
+	0%{
+		top:0px;
+	}
+	0%{
+		font-size:0px;
+	}
+
+}
+
+/*------------LogIN---Page-------*/
+		.login-form{
+			background-color:#00a5dc;
+			margin:auto;
+			margin-top:0px;
+			text-align:center;
+			width:290px;
+			height:290px;
+			box-shadow:10px 10px 20px 0px brown;
+			border-radius:0px 20px 0px;
+			position:relative;
+			top:0px;
+			z-index:100;
+			/*opacity:0.8;*/
+		}
+		/*input[type="text"],[type="password"]{
+			border:none;
+			outline:none;
+			background-color:#0787b1;
+			font-size:large;
+			border-bottom:3.5px solid #137447;
+			border-radius:10%;
+			padding:8.5px;	
+			text-align:center;
+
+		}*/
+		::placeholder{
+				text-align:center;
+				color:#137447;
+				font-size:larger;
+			}
+		.login-form{
+			position:absolute;
+			top:260px;
+			left:50px;
+			display:block;
+			padding:10px;
+			display:none;			
+		}
+		.login{
+		padding:30px;
+		margin-top:50px;
+		}
+		#button{
+				background-color:#137447;
+				color:gray;
+				border:none;
+				border-radius:05px;
+				font-size:1em;
+				width:90px;
+				height:40px;
+				}
+		#button:hover{
+				cursor:pointer;
+			}
+#msg{
+color:red;
+font-size:x-large;
+}
+
+#login_img{
+width:40px;
+height:40px;
+border-radius:50%;
+}
+
+/*-----------Home Page------------*/
+.container-home{
+/*background-color:#d5edd5;*/
+background-color:white;
+height:360px;
+width:94.91em;
+position:absolute;
+top:1000px;
+left:0px;
+}
+.pm-more{
+border:1px solid brown;
+text-align:center;
+width:100px;
+color:#550000;
+
+}
+.div-border-heading{
+	border-bottom:1px solid brown;
+	position:relative;
+	top:0px;
+	left:145px;
+	width:750px;
+}
+.row-div-profile-right{
+height:350px;
+width:55em;
+position:absolute;
+top:0px;
+left:550px;
+}
+.row-div-profile-left{
+height:350px;
+width:55em;
+position:relative;
+top:10px;
+left:140px;
+
+}
+
+
+.img-responsive{
+width:130px;
+height:auto;
+background:none;
+}
+.img-pm-responsive{
+width:130px;
+height:auto;
+background:none;
+
+}
+.div-pm-border-heading{
+	border-bottom:1px solid brown;
+	position:relative;
+	top:0px;
+	left:50px;
+	width:300px;
+	text-align:center;
+	font-size:2em;
+	color:gray;
+
+}
+
+.home-heading{
+background:none;
+border-bottom-height:50em;
+font-size:2em;
+text-align:center;
+color:gray;
+}
+.img-profile-tag .img-pro{
+position:relative;
+top:10px;
+left:100px;
+margin-left:50px;
+padding:-20px;
+width:150px;
+height:200px;
+display:inline-block;
+}
+
+.more{
+border:1px solid brown;
+text-align:center;
+color:#550000;
+}
+/*-------------Addmition logo-----------*/
+.svg-position{
+height:400px;
+width:94.91em;
+position:absolute;
+top:507px;
+left:0px;
+}
+.add-top-div{
+position:relative;
+top:90;
+left:130px;
+width:40em;
+height:50px;
+border-bottom:1px solid white;
+text-align:center;
+font-weight:bolder;
+font-size:2em;
+color:gray;
+}
+.addmi-top-div{
+width:500px;
+height:250px;
+background-color:#430606df;
+box-shadow:0px 0px 10px 05px rgba(0,0,0,0.5);
+position:relative;
+top:620px;
+left:520px;
+z-index:2;
+}
+
+#add-link-a{
+background-color:#FFFF99;
+width:500px;
+height:2em;
+font-size:1.5em;
+text-align:center;
+position:relative;
+top:102px;
+}
+#anker{
+position:relative;
+top:10px;
+color:#550000;
+}
+	#admission-logo{
+		width:100px;
+		height:100px;
+		position:relative;
+		border-radius:50%;
+		box-shadow:0px 0px 10px 10px rgba(0,0,0,0.5);
+		top:60px;
+		left:190px;
+		z-index:100;
+		animation:Animate 1s infinite;
+		}
+	@keyframes Animate{
+			0%{
+				transform:scale(0);
+			}
+			
+			
+			50%{
+				transform:scale(0.5);
+			}
+			0%{
+				transform:scale(1);
+			}
+	}
+	
+	.notice-div{
+	position:relative;
+	top:500px;
+	border-top:2px dashed #5c0707;
+	border-bottom:2px dashed #5c0707;
+	width:94.71em;
+	height:50px;
+	background-color:#DDDDDD;
+	}
+	#notice-ele{
+	width:110px;
+	height:50px;
+	background-color:#DD0000;
+	font-family:sans-serif;
+	font-weight:bolder;
+	position:relative;
+	top:-16px;
+	}
+	
+	#not-p{
+	position:relative;
+	top:15px;
+	left:20px;
+	color:#EEEEEE;
+	}
+	#marque{
+	position:absolute;
+	top:555px;
+	width:1395px;
+	left:112px;
+	color:#007700;
+	z-index:100;
+	font-size:1.5em;
+	}
+	
+	 #marque{
+                animation: blinker 1.5s linear infinite;
+                color: red;
+                font-family: sans-serif;
+            }
+            @keyframes blinker {
+                50% {
+                    opacity: 0;
+                }
+            }
+			
+.admin-middel-view-div{
+width:93.29em;
+height:300px;
+background:none;
+position:absolute;
+top:580px;
+left:08px;
+padding:2px;
+z-index:5;
+text-align:center;
+overflow: hidden;
+}
+ .admin-container {
+          position:relative;
+		  top:0px;
+		  left:0px;
+		  over-flow:hidden;		 
+		  z-index:5;
+		  overflow: hidden;
+        }
+		
+ .admin-slide {
+            width:1200px;
+            height:502px;
+            position:relative;
+			top:0px;
+			left:0px;
+		  animation: adminslider 5s infinite;				
+		}
+     
+ @keyframes adminslider{
+			0%{
+			top:-500px;
+			}
+			50%{
+			top:0px;
+			}
+			100%{
+			top:510px;
+			}
+			0%{
+			left:150px;
+			}
+			50%{
+			left:150px;
+			}
+			100%{
+			left:150px;
+			}
+		}
+		
+/*---------------Footer-------------Style---------Desion---------------*/
+
+.footer-container{
+width:94.91em;
+height:400px;
+background-color:white;
+position:absolute;
+top:361px;
+border-top:2px solid #660000;
+}
+.footer-elem-box{
+	width:350px;
+	height:290px;
+	position:relative;
+	top:50;
+	left:50px;
+}
+.footer-ele-headin{
+position:relative;
+top:05px;
+left:10px;
+margin-bottom:10px;
+}
+
+.footer-ele-headin a{
+	color:#660000;
+}
+
+.footer-ele-headin1{
+position:relative;
+top:05px;
+left:05px;
+}
+
+.footer-ele-headin1 a{
+	color:#660000;
+}
+
+.footer-elem-box-right{
+position:absolute;
+top:-175px;
+left:400px;
+width:350px;
+height:290px;
+}
+.footer-ele-headin-right{
+width:350px;
+padding-bottom:10px;
+}
+.footer-img{
+width:400px;
+height:300px;
+position:absolute;
+top:0px;
+left:250px;
+box-shadow:0px 0px 15px 05px rgba(0,0,0,0.5);
+border-radius:1.5%;
+}
+.footer-img img{
+width:400px;
+height:300px;
+border-radius:1.5%;
+}
+
+
+.course-dropdown{
+ top:120px;
+ width:150px;
+ height:40px;
+color:#00a5dc;
+}
+.course-dropdown:hover{
+background-color:#BB0000;
+color:white;
+transition:2s;
+}
+/*----------LogOut Css Design---------------------*/
+
+#frm-h{
+width:50px;
+height:5px;
+}
+.log-btn{
+width:118px;
+height:42px;
+position:relative;
+bottom:2.5px;
+right:1.5px;
+font-size:xx-large;
+font-family:"Gill Sans Ultra Bold";
+color:white;
+outline:none;
+border:none;
+background-color:#660000;
+cursor:pointer;
+}
+
+.log-btn:hover{
+background-color:#BB0000;
+transition:1.5s;
+}
+
+/***************Student Details*****************/
+#table-middel{
+border-collapse:collapse;
+outline:none;
+border:none;
+
+}
+#form_stu{
+border:none;
+}
+
+/*-------------Fees View--------------*/
+#stu-heading{
+font-size:3.5em;
+color:white;
+background-color:#880000;
+}
+.fees-view{
+border-collapse:collapse;
+}
+/*********************Admit Card***************************/
+.main-div{
+position:absolute;
+top:50px;
+left:380px;
+width:700px;
+height:auto;
+}
+.data-print{
+	width:400px;
+	height:0px;
+	margin:auto;
+	margin-top:10px;
+}
+.admit_table{
+border-collapse:collapse;
+ }
+.admit-data-table{
+border-collapse:collapse; 
+padding-left:40px;
+}
+.admit-data-table td{
+padding-left:10px;
+}
+ 
+.admit_table td{
+ border:none;
+ padding-left:20px;
+}
+
+.instruction-admit{
+margin-top:1px;
+width:665px;
+height:400px;
+}
+#img-div{
+	position:absolute;
+	top:120px;
+	left:560px;
+}
+	
+@media print{
+.admin_container{
+display:none;
+}
+.header11{
+display:none;
+}
+
+#img-div{
+	position:absolute;
+	top:-50px;
+	left:560px;
+}
+
+	#stu-heading{
+	height:200px;
+	font-size:4.5em;
+	padding-top:50px;	
+	}
+
+.admit_table{
+	margin-top:-260px;
+	width:1020px;
+
+}
+.admit_table{
+	height:350px;
+}
+.admit_table,.admit-data-table,.instruction-admit{
+		background:#FFFF99;
+		width:1050px;
+		margin-left:-370px;
+	}
+	.instruction-admit{
+	position:absolute;
+	top:150px;
+	width:1010px;
+	height:1185px;
+	padding:20px;
+	}
+}

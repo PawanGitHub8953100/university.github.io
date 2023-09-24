@@ -1,0 +1,72 @@
+body{
+background:rgba(0,0,0,0.2);
+}
+
+.main-div{
+width:1318px;
+height:auto;
+background:#EEEEEE;
+position:relative;
+top:0px;
+left:100px;
+
+}
+.faculity-table{
+border-collapse:collapse;
+border:1px solid brown;
+color:#550000;
+}
+.faculity-table tr td{
+padding-left:10px;
+}
+.heading{
+font-size:3em;
+color:brown;
+}
+.btn{
+cursor:pointer;
+border:none;
+outline:none;
+width:70px;
+height:30px;
+background:teal;
+color: white;
+position: relative;
+background-color:brown;
+margin:2px;
+font-weight:bolder;
+}
+       .btn:hover{
+	   background:rgba(0,0,0,0.2);
+	   color:#990000;
+	   font-weight:bolder;
+	   }
+@media print{
+.container{
+position:relative;
+top:50px;
+left:270px;
+}
+.admin_table{
+display:none;
+}
+ .main-div{
+ 	width:60em;
+	position:absolute;
+	top:100px;
+	left:-50px;
+	background:#FFFFCC;
+ }
+ 
+ .faculity-table{
+ 	width:60em;
+	height:500px;
+ }
+  .faculity-table tr td{
+  padding-left:10px;
+  
+  }
+ #td-act{
+ display:none; 
+ }
+}	   

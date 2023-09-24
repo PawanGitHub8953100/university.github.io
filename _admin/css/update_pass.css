@@ -1,0 +1,60 @@
+.update-main-div{
+width:94.91em;
+height:700px;
+background:rgba(0,0,0,0.5);
+
+}
+.update-box{
+position:relative;
+top:150px;
+left:450px;
+width:500px;
+height:400px;
+background:teal;
+box-shadow:0px 0px 10px 0px brown;
+
+}
+.update_heading{
+	font-size:2.5em;
+	position:relative;
+	top:20px;
+	left:100px;
+	color:brown;
+	text-shadow:02px 02px 03px white;
+}
+.update-form-div{
+position:relative;
+top:10px;
+text-align:justify;
+top:80px;
+left:60px;
+font-size:1.5em;
+color:#EEEEEE;
+}
+.update-button{
+position:relative;
+top:100px;
+left:150px;
+
+}
+
+#update-btn-color{
+color:teal;
+width:150px;
+height:50px;
+border:none;
+outline:none;
+cursor:pointer;
+}
+#update-btn-color:hover{
+background-color:rgba(0,0,0,0.5);
+color:#FFFFCC;
+}
+
+#update-btn-color::after{
+	position:absolute;
+	top:0;
+	lef:100%;
+	border:px solid red;
+}
+

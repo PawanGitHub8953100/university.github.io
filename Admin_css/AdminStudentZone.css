@@ -1,0 +1,102 @@
+body{
+background-color:rgba(0,0,0,0.2);
+
+}
+.login-form{
+			background-color:teal;
+			margin:auto;
+			margin-top:100px;
+			text-align:center;
+			width:400px;
+			height:400px;
+	        box-shadow:0px -100px 100px -100px green inset ,0px 100px 100px -100px red inset,0px 0px 10px 0px aqua inset ,5px 5px 10px black;
+			 
+		}
+		input[type="text"],[type="password"]{
+			border:none;
+			outline:none;
+			background-color:rgba(0,0,0,0);
+			font-size:large;
+			border-bottom:2px solid rgba(0,0,0,0.1);
+			
+			padding:8.5px;
+			text-align:center;	
+			color:brown;
+		}
+		::placeholder{
+				text-align:center;
+				color:rgba(0,0,0,0.5);
+				font-size:larger;
+			}
+		.login-form,div{
+			position:relative;
+			top:60px;
+			left:0px;
+			display:block;
+			padding:10px;
+			
+		}
+		#button{
+				background-color:rgba(0,0,0,0.5);
+				color:white;
+				border-radius:2px;
+				border:none;
+				font-size:1em;
+				width:90px;
+				height:40px;
+				}
+		#button:hover{
+				cursor:pointer;
+				background-color:rgba(0,0,0,0.3);
+		
+			}
+			#forget{
+				width:100px;
+				height:15px;
+				position:absolute;
+				top:241px;
+				left:220px;
+				text-decoration:none;
+				color:white;
+				background-color:rgba(0,0,0,0.5);
+			}
+			#forget a{
+			text-decoration:none;
+			color:white;
+			
+			}
+			#forget:hover{
+				background-color:rgba(0,0,0,0.3);
+			}
+			
+			
+			#all-msg{
+			position:absolute;
+				top:210px;
+				left:100px;
+				color:brown;
+			}
+			#msg{
+			position:relative;
+				top:100px;
+				z-index:100;
+			}
+			
+			#admin-ank{
+				width:100px;
+				height:15px;
+				background-color:rgba(0,0,0,0.5);
+				position:absolute;
+				top:240px;
+				left:60px;
+			}
+			#admin-ank a{
+				text-decoration:none;
+				color:white;
+				
+			}
+			
+			#admin-ank:hover{
+				background-color:rgba(0,0,0,0.3);
+			}
+			

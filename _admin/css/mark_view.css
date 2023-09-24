@@ -1,0 +1,45 @@
+.mark_vew{
+	background-color:white;
+	position:relative;
+	top:80px;
+outline:none;
+border:none;
+	
+}
+.view-mark{
+width:94em;
+outline:none;
+border:none;
+border-collapse:collapse;
+}
+
+.view-mark tr th{
+text-align:center;
+}
+.view-mark tr td #ank{
+text-decoration:none;
+color:#550000;
+background-color:rgba(0,0,0,0.3);
+outline:none;
+border:none;
+}
+.view-mark tr td #ank:hover{
+ background-image:radial-gradient(green,white,brown);
+}
+.view-mark tr td a{
+text-decoration:none;
+color:#550000;
+}
+.view-mark tr td a:hover{
+color:#440000;
+
+}
+.mr-view:nth-child(even){
+background-image:linear-gradient(rgba(170,8,8,0.500),gray);
+color:#440000;
+}
+
+.mr-view:nth-child(odd){
+background-image:linear-gradient(rgba(170,8,8,0.500),white);
+color:#470000;
+}

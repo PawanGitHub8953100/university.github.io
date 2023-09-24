@@ -1,0 +1,280 @@
+.main{
+	position:absolute;
+	top:250px;
+	left:400px;
+}
+
+#lightbox{
+	position: absolute;
+	top: 200px;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	text-align: center;
+	line-height: 0;
+	color:#151410;
+	}
+
+#lightbox a, #lightbox a:hover {
+	border-bottom:none;
+	color:#151410;
+	text-decoration:underline;
+}
+
+#lightbox a img{ border: none; }
+
+#outerImageContainer{
+	position: relative;
+	
+	background-color: #fff;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+	}
+
+#imageContainer{
+	padding: 10px;
+	}
+
+#loading{
+	position: absolute;
+	top: 40%;
+	left: 0%;
+	height: 25%;
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+	}
+#loadingLink {
+	display:block;
+	margin:0 auto;
+	padding:0;
+	width:32px;
+	height:32px;
+	background:url("../images/loading.gif") center center no-repeat;
+	text-indent:-9999px;
+}
+#hoverNav{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+	}
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLinkImg, #nextLinkImg{
+	width: 49%;
+	height: 100%;
+	background: transparent url("../images/blank.gif") no-repeat; /* Trick IE into showing hover */
+	display: block;
+	text-indent:-9999px;
+	}
+#prevLinkImg { left: 0; float: left;}
+#nextLinkImg { right: 0; float: right;}
+#prevLinkImg:hover, #prevLinkImg:visited:hover { background: url("../images/prevlabel.gif") left 15% no-repeat; }
+#nextLinkImg:hover, #nextLinkImg:visited:hover { background: url("../images/nextlabel.gif") right 15% no-repeat; }
+
+
+#imageDataContainer{
+	font: 10px Verdana, Helvetica, sans-serif;
+	background-color: #fff;
+	margin: 0 auto;
+	line-height: 1.4em;
+	}
+
+#imageData{
+	padding:0 10px;
+	}
+#imageDetails{ width: 70%; float: left; text-align: left; }	
+#caption{ font-weight: bold;	}
+#numberDisplay{ display: block; clear: left; }			
+#detailsNav{ display: block; clear: left; padding:0 0 10px 0;	}	
+#prevLinkDetails { margin:0 8px 0 0; }		
+#nextLinkDetails { margin:0 8px 0 0; }		
+#closeLink {
+	display:block;
+	margin:0;
+	padding:0 0 10px 0;
+	text-decoration:none;
+	float:right;
+	width:66px;
+	height:28px;
+	background:url("../images/closelabel.gif") no-repeat;
+	text-indent:-9999px;
+	overflow:hidden;
+}	
+		
+#overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	width: 100%;
+	height: 500px;
+	background-color: #151410;
+	filter:alpha(opacity=60);
+	-moz-opacity: 0.6;
+	opacity: 0.6;
+	}
+	
+
+.clearfix:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+	}
+
+* html>body .clearfix {
+	display: inline-block; 
+	width: 100%;
+	}
+
+* html .clearfix {
+	/* Hides from IE-mac \*/
+	height: 1%;
+	/* End hide from IE-mac */
+	}	
+	
+/*////////////-----Button------/////////////////////////////*/
+        .btn-div{
+			position:absolute;
+			top:180;
+			left:700px;
+			width:100;
+			height:50px;
+			
+		}
+		 .btn1 {
+            width: 100px;
+            height: 50px;
+            cursor: pointer;
+            border: none;
+            outline: none;
+            font-size: 1em;
+            color:rgba(170, 8, 8, 0.999);
+            position: relative;
+		    background-color: rgba(0, 0, 0, 0.108);
+			border-radius:02%;
+        }
+        .btn1::after {
+            content: '';
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            width: 0%;
+            height: 1.5px;
+            background-color:rgba(170, 8, 8, 0.998) ;
+            transition: 1s;
+        }
+        
+        .btn1:hover.btn1::after {
+            width: 100%;
+        }
+        
+        .btn1:hover.btn1::before {
+            width: 100%;
+        }
+        
+        .btn1::before {
+            content: '';
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            width: 0%;
+            height: 1px;
+            background-color:rgba(170, 8, 8, 0.998);
+            transition: 1s;
+        }
+
+.upload_img_div{
+width:285px;
+height:30px;
+background-color:white;
+position:relative;
+top:125;
+left:74em;
+}
+.upload_img_div #upload_img{
+height:30px;
+position:relative;
+top:4px;
+left:04px;
+color:#550000;
+border:none;
+outline:none;
+}
+.upload_img_div #submitAct{
+position:absolute;
+top:0px;
+left:200px;
+width:80px;
+height:30px;
+outline:none;
+border:none;
+background-image:linear-gradient(rgba(170,8,8,0.200),white,rgba(170,8,8,0.200));
+}
+.upload_img_div #submitAct:hover{
+background-color:#880000;
+cursor:pointer;
+color:teal;
+}
+
+.msg{
+position:relative;
+top:100px;
+left:50px;
+color:#770000;
+font-weight:bolder;
+font-size:x-large;
+width:500px;
+height:30px;
+text-align:center;
+background-color:white;
+}
+.image_view_div{
+width:90em;
+height:auto;
+background-color:none;
+position:absolute;
+top:0px;
+left:-340px;
+}
+
+#status{
+width:300px;
+height:30px;
+background:white;
+color:#770000;
+font-size:x-large;
+position:absolute;
+top:-85px;
+left:480px;
+}
+.delete-btn{
+width:140px;
+height:30px;
+background-image:radial-gradient(rgba(170,8,8,0.200),white,rgba(170,8,8,0.900));
+position:absolute;
+top:-80px;
+left:600px;
+}
+.delete-btn p{
+color:#770000;
+text-align:center;
+font-size:large;
+position:absolute;
+top:0px;
+left:40px;
+top:-12px;
+}
+.delete-btn:hover{
+color:#770000;
+background-image:linear-gradient(white,brown);
+outline:1px solid brown;
+
+}
